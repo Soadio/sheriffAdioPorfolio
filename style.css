@@ -77,6 +77,14 @@ nav .nav-bar .logo a {
     text-decoration: none;
 }
 
+
+
+nav .nav-bar .logo img{
+    width: 400px;
+    height: 200px;
+    padding: 25px;
+}
+
 .menu .logo-toggle {
     display: none;
 }
@@ -316,11 +324,15 @@ nav .nav-bar .logo a {
 }
 
 
-
+/*slider section*/
 .container {
     display: flex;
     flex-wrap: wrap;
 }
+
+/*.container .col-md-6 img{
+
+}*/
 
 .content-section {
     flex: 1 1 50%;
@@ -387,7 +399,7 @@ nav .nav-bar .logo a {
     }
 }
 
-/* skills deatila  section*/
+/* skills detail  section*/
 
 .arrow-icon {
     color: yellow;
@@ -670,4 +682,10 @@ span.text {
     display: flex;
     justify-content: space-between;
     width: 24%;
+}
+
+.footer1 .logo_sec img{
+    width: 350px;
+    height: 150px;
+    padding: 25px;
 }
