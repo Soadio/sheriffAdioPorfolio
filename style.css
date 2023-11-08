@@ -345,6 +345,8 @@ nav .nav-bar .logo img{
     flex-wrap: wrap;
 }
 
+
+
 .card {
     width: 45%;
     /* Card styling */
@@ -352,6 +354,15 @@ nav .nav-bar .logo img{
     height: 300px;
 }
 
+/*@media (max-width: 320px) {
+    .card1, .card2, .card3,.card4  {
+        gap: 30px;
+        flex: column;
+        overflow: hidden;
+        
+        
+    }
+}*/
 .card1 {
     align-self: flex-end;
     padding-top: 0px;
@@ -389,16 +400,42 @@ nav .nav-bar .logo img{
 }
 
 /* Media Query for smaller screen sizes */
-@media (max-width: 768px) {
+/*@media (max-width: 320px) {
     .container {
         flex-direction: column;
+        
+    }
+
+    .content-section {
+        flex: 1 1 100%;
+    }
+
+    .cards-section{
+        
+        flex: 0 0 auto;
+
+   
+}
+
+/*@media (max-width: 320px) {
+    .container {
+        flex-direction: block;
+        
     }
 
     .content-section,
     .cards-section {
-        flex: 1 1 100%;
+        flex: 0 0 100%;
     }
-}
+}*/
+
+
+/*@media screen (max-width: 320px) { 
+    .col-md-6 .img{
+        margin: auto;
+    }
+    
+}*/
 
 /* skills detail  section*/
 
@@ -644,10 +681,12 @@ span.text {
 }
 
 @media screen and (max-width: 768px) {
-    .wrapperx {
+    .wrapperx, .text {
         /* width: 90vw; */
-        /* flex-wrap: wrap; */
-        /* gap: 30px; */
+        flex-wrap: wrap;
+         gap: 30px; 
+         font-size: 2px;
+         font-size: 15px !important;
     }
 
     .containerx {
@@ -659,13 +698,13 @@ span.text {
 
 @media screen and (max-width: 480px) {
     .wrapperx {
-        /* gap: 15px; */
+        /*gap: 15px;*/ 
     }
 
     .containerx {
         /* width: 100%;
         height: 25vmin; */
-        font-size: 8px;
+        font-size: 2px;
     }
 }
 /* footer  */
